@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:layout_marginStart="8dp">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/passenger_name_label_tv"
@@ -110,14 +109,15 @@
         android:letterSpacing="0.3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/source_rectangle"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
     <TextView
         android:id="@+id/boarding_time_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         tools:text="02.15 PM"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/boarding_in_label_tv"
         app:layout_constraintTop_toBottomOf="@id/boarding_time_label_tv"
         android:layout_marginTop="8dp"/>
 
@@ -129,14 +129,15 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:letterSpacing="0.3"
         app:layout_constraintTop_toBottomOf="@id/boarding_time_tv"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
     <TextView
         android:id="@+id/departure_time_Tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="03.15 PM"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/departure_time_label_tv"
         app:layout_constraintTop_toBottomOf="@id/departure_time_label_tv"
         android:layout_marginTop="8dp"/>
 
