@@ -46,7 +46,7 @@
         <ImageView
             android:id="@+id/source_rectangle"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:layout_width="60dp"
             android:layout_height="80dp"
             app:srcCompat="@drawable/shape_rectangle_stroke"
@@ -56,7 +56,7 @@
         <ImageView
             android:id="@+id/destination_rectangle"
             android:layout_marginEnd="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:layout_width="60dp"
             android:layout_height="80dp"
             app:srcCompat="@drawable/shape_rectangle_stroke"
@@ -196,13 +196,12 @@
             app:layout_constraintBaseline_toBaselineOf="@id/boarding_time_tv"/>
 
 
-
         <ImageView
             android:id="@+id/table_header_iv"
             android:layout_width="0dp"
             android:layout_height="24dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="8dp"
             android:layout_marginRight="16dp"
             android:background="@color/colorPrimaryLight"
             app:layout_constraintLeft_toLeftOf="parent"
